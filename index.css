@@ -22,7 +22,7 @@ a {
 
 .header {
     height: 45px;
-    background-color: #cae3ea;
+    background-color: #F5FBFF;
     padding: 15px;
     display: flex;
     flex-direction: row;
@@ -67,7 +67,7 @@ a {
 }
 
 .menu {
-    background-color: 	#b1d2db;
+    background-color: #E5F3FD;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -90,7 +90,7 @@ a {
 }
 
 .aboutUs {
-    background-color: #9bbfc9;
+    background-color: #D1E5F4;
     padding: 15px;
     display: grid;
     grid-template-columns: 1fr;
@@ -104,7 +104,7 @@ a {
 }
 
 .gallery {
-    background-color: #7ca3ae;
+    background-color: #BDD5E7;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 15px;
@@ -117,7 +117,7 @@ a {
 }
 
 .contactUs {
-    background-color: #6a929d;
+    background-color: #AECCE4;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 15px;
@@ -140,14 +140,14 @@ a {
     text-transform: uppercase;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 18px;
     margin-bottom: 15px;
 }
 
 .contactUsTextValue {
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .contactUsMap {
@@ -160,11 +160,11 @@ a {
 }
 
 .footer {
-    background-color: #577b86;
+    background-color: #9ABDDC;
     padding: 10px;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -200,11 +200,11 @@ a {
     }
 
     .aboutUsText {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .footer {
-        font-size: 12px;
+        font-size: 16px;
     }
 }   
 
@@ -218,23 +218,6 @@ a {
     .gallery {
         grid-template-columns: 1fr;
     }
-
-    .title {
-        font-size: 14px;
-    }
-
-    .tab {
-        font-size: 14px;
-    }
-
-    .contactUsTextLabel {
-        font-size: 14px;
-        margin-bottom: 8px;
-    }
-
-    .contactUsTextValue {
-        font-size: 14px;
-    }
 }   
 
 @media only screen and (max-width: 400px) {
@@ -243,7 +226,7 @@ a {
     }
 
     .title {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .languageMenu {
@@ -259,7 +242,7 @@ a {
     }
 
     .tab {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .aboutUsText {
@@ -267,15 +250,15 @@ a {
     }
 
     .contactUsTextLabel {
-        font-size: 12px;
+        font-size: 14px;
         margin-bottom: 8px;
     }
 
     .contactUsTextValue {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .footer {
-        font-size: 10px;
+        font-size: 14px;
     }
 }   
