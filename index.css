@@ -100,7 +100,7 @@ a {
 .aboutUsText {
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .gallery {
@@ -203,6 +203,14 @@ a {
         font-size: 16px;
     }
 
+    .contactUsTextLabel {
+        font-size: 16px;
+    }
+
+    .contactUsTextValue {
+        font-size: 16px;
+    }
+
     .footer {
         font-size: 16px;
     }
@@ -246,7 +254,7 @@ a {
     }
 
     .aboutUsText {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .contactUsTextLabel {
