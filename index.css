@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    height: 45px;
+    background-color: #cae3ea;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 100%;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.title {
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+.languageMenu {
+    width: 80px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: end;
+    align-items: center;
+}
+
+.languageMenu img {
+    height: 50%;
+    transition: all .2s ease-in-out;
+}
+
+.languageMenu img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.menu {
+    background-color: 	#b1d2db;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+    padding: 10px;
+}
+
+.tab {
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    transition: all .2s ease-in-out;
+}
+
+.tab:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.aboutUs {
+    background-color: #9bbfc9;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.aboutUsText {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.gallery {
+    background-color: #7ca3ae;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 15px;
+    gap: 15px;
+}
+
+.galleryImage img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.contactUs {
+    background-color: #6a929d;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 15px;
+    gap: 15px;
+}
+
+.contactUsText {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.contactUsField {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactUsTextLabel {
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.contactUsTextValue {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.contactUsMap {
+    min-height: 300px;
+}
+
+.contactUsMap iframe {
+    height: 100%;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #577b86;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+}   
+
+@media only screen and (max-width: 800px) {
+    .header {
+        height: 35px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .languageMenu {
+        width: 61px;
+    }
+
+    .languageMenu img {
+        height: 70%;
+    }
+
+    .menu {
+        gap: 20px;
+    }
+
+    .tab {
+        font-size: 18px;
+    }
+
+    .aboutUsText {
+        font-size: 14px;
+    }
+
+    .footer {
+        font-size: 12px;
+    }
+}   
+
+@media only screen and (max-width: 600px) {
+    .contactUs {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .title {
+        font-size: 14px;
+    }
+
+    .tab {
+        font-size: 14px;
+    }
+
+    .contactUsTextLabel {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .contactUsTextValue {
+        font-size: 14px;
+    }
+}   
+
+@media only screen and (max-width: 400px) {
+    .header {
+        height: 25px;
+    }
+
+    .title {
+        font-size: 12px;
+    }
+
+    .languageMenu {
+        width: 44px;
+    }
+
+    .languageMenu img {
+        height: 70%;
+    }
+
+    .menu {
+        gap: 15px;
+    }
+
+    .tab {
+        font-size: 12px;
+    }
+
+    .aboutUsText {
+        font-size: 12px;
+    }
+
+    .contactUsTextLabel {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+
+    .contactUsTextValue {
+        font-size: 12px;
+    }
+
+    .footer {
+        font-size: 10px;
+    }
+}   
